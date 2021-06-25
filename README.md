@@ -19,7 +19,7 @@ The basic configurations of `GNMR` are:
 - opts.stop_relRes: early stop if the rel-RMSE distnace from the underlying matrix is less than this threshold (-1 to diasable)
 - opts.stop_relDiff: early stop if the estimate does not change by a factor of this threshold (-1 to disable)
 
-Additional (optional) configurations can be found in the beginning of the functions `GNMR_completion.m`/`GNMR_completion.py` and `GNMR_sensing.m`/`GNMR_sensing.py`.
+Additional (optional) configurations can be found in the beginning of the files `GNMR_completion.m`/`GNMR_completion.py` and `GNMR_sensing.m`/`GNMR_sensing.py`.
 
 Note that unlike several other matrix recovery algorithms, for `GNMR` the _opts.max_inner_iter_ parameter is usually more important than _opts.max_outer_iter_.
 The required number of inner iterations depends on the difficulty of the problem (the condition number and the oversampling ratio), but is usually a few thousand.
