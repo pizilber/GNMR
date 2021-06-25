@@ -15,7 +15,7 @@ opts.alpha = 1;                 % variant parameter (e.g., 1: setting, 0: averag
 % number of iterations
 opts.max_outer_iter = 100;      % maximal number of outer iterations
 opts.max_inner_iter = 2000;     % maximal number of inner iterations for the LSQR solver
-% stopping criteria (-1 for disabling criterion)
+% stopping criteria (-1 to disable a criterion)
 opts.stop_relRes = 1e-14;   	% small relRes threshold
                                 % (relRes = ||X_hat - X||_F/||X_hat||_F on the observed entires)
 opts.stop_relDiff = 1e-14;      % small relative X_hat difference threshold

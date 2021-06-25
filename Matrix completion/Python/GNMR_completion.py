@@ -30,9 +30,9 @@ def GNMR_completion(X, omega, rank, verbose=True, alpha=1, max_outer_iter=100,
     :param int init_option: how to initialize U and V (INIT_WITH_SVD, INIT_WITH_RAND, or INIT_WITH_USER_DEFINED)
     :param ndarray init_U: U initialization (n1,rank), used in case init_option==INIT_WITH_USER_DEFINED
     :param ndarray init_V: V initialization (n2,rank), used in case init_option==INIT_WITH_USER_DEFINED
-    :param float stop_relRes: relRes threshold for ealy stopping (relevant to noise-free case), -1 for disabled
-    :param float stop_relDiff: relative X_hat difference threshold for ealy stopping, -1 for disabled
-    :param float stop_relResDiff: relRes difference difference threshold for early stopping, -1 for disabled
+    :param float stop_relRes: relRes threshold for ealy stopping (relevant to noise-free case), -1 to disable
+    :param float stop_relDiff: relative X_hat difference threshold for ealy stopping, -1 to disable
+    :param float stop_relResDiff: relRes difference difference threshold for early stopping, -1 to disable
     :param bool normalize_X: work with normalized matrix X, may enhance performance in some cases
     :parma bool r_projection_in_iteration: if true, error estimation at each iteration
       is calculated for the best rank-r approximation using SVD

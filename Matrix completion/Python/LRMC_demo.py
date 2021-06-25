@@ -25,7 +25,7 @@ def run_demo():
         # number of iterations
         'max_outer_iter' : 100, 
         'max_inner_iter': 2000,
-        # early stopping criteria
+        # early stopping criteria (-1 to disable a criterion)
         'stop_relRes':  5e-14,
         'stop_relDiff': 5e-14,
     }

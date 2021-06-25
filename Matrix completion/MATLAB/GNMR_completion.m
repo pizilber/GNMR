@@ -32,7 +32,7 @@ opts_default.LSQR_smart_obj_min = 1e-5;         % relRes threshold to start usin
 opts_default.init_option = 0;                   % 0 for SVD, 1 for random, 2 for opts.init_U, opts.init_V
 opts_default.init_U = NaN;                      % if opts.init_option==2, use this initialization for U
 opts_default.init_V = NaN;                      % if opts.init_option==2, use this initialization for V
-% early stopping criteria (-1 for disabling criterion)
+% early stopping criteria (-1 to disable a criterion)
 opts_default.stop_relRes = 1e-16;               % small relRes threshold (relevant to noise-free case)
 opts_default.stop_relDiff = -1;                 % small relative X_hat difference threshold
 opts_default.stop_relResDiff = -1;              % small relRes difference threshold
