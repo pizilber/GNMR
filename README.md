@@ -8,7 +8,7 @@ In these demos, the expected configurations of the matrix to be recovered are:
 - n2: number of columns
 - rank
 - condition number
-- oversampling ratio: number of observed entries, normalized by the factor _(n1 + n2 - rank)*rank_
+- oversampling ratio: number of observed entries, normalized by the factor _(n1 + n2 - rank)*rank_. Oversampling ratio of one corresponds to the information limit
 
 Given these configurations, the demo generates a matrix using `generate_matrix.m`/`generate_matrix.py`, and a mask (sampling pattern) in case of matrix comletion using `generate_mask.m`/`generate_mask.py`, and then run the `GNMR` algorithm.
 The basic configurations of `GNMR` are:
