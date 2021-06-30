@@ -22,7 +22,7 @@ The basic configurations of `GNMR` are:
 Additional (optional) configurations can be found in the beginning of the files `GNMR_completion.m`/`GNMR_completion.py` and `GNMR_sensing.m`/`GNMR_sensing.py`.
 
 Note that unlike several other matrix recovery algorithms, for `GNMR` the _opts.max_inner_iter_ parameter is usually more important than _opts.max_outer_iter_.
-The required number of inner iterations depends on the difficulty of the problem (the condition number and the oversampling ratio), but is usually a few thousand.
+The required number of inner iterations depends on the dimension and the difficulty of the problem (the condition number and the oversampling ratio), but to ensure recovery a few thousand are generically recommended.
 
 ## Citation
 If you refer to the method or the paper, please cite them as:
