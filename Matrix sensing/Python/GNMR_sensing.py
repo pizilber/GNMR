@@ -15,7 +15,6 @@ def GNMR_sensing(b, A, n1, n2, rank, verbose=True, alpha=1, max_outer_iter=100,
     r_projection_in_iteration=False):
     """
     Run GNMR algorithm for matrix completion
-    (in the following, relRes == ||A * X_hat - b|| / ||b||)
     :param ndarray b: observed linear measurements of the underlying matrix
     :param ndarray A: the sensing operator
     :paran int n1: number of rows in the underlying matrix
