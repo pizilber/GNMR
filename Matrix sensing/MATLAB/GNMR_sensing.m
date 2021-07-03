@@ -15,8 +15,7 @@ function [X_hat, all_relRes, iter, convergence_flag] = ...
 %
 % OUTPUT:
 % X_hat = rank-r approximation of the underlying matrix
-% all_relRes = list of relRes throughout the iterations
-%   (relRes = ||X_hat - X||_F/||X_hat||_F on the observed entires)
+% all_relRes = list of the residual errors of the least-squares problem throughout the iterations
 % iter = final iteration number
 % convergence_flag = indicating whether the algorithm converged
 %
