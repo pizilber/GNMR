@@ -15,7 +15,6 @@ def GNMR_completion(X, omega, rank, verbose=True, alpha=1, max_outer_iter=100,
     normalize_X=False, r_projection_in_iteration=False):
     """
     Run GNMR algorithm for matrix completion
-    (in the following, relRes == ||X_hat - X||_F / ||X_hat||_F on the observed entires)
     :param ndarray X: Input matrix (n1,n2). Unobserved entries should be zero
     :param ndarray omega: Mask matrix (n1,n2). 1 on observed entries, 0 on unobserved
     :param int rank: Underlying rank matrix
