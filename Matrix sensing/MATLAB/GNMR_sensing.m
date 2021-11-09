@@ -101,7 +101,7 @@ for iter = 1:opts.max_outer_iter
     end
     LSQR_tol = max(LSQR_tol, 2*eps);  % to supress warning
     % solve the least squares problem
-    [Z, ~, relRes, LSQR_iters_done] = lsqr(A * L, b_t, LSQR_tol, opts.max_inner_iter);
+    [z, ~, relRes, LSQR_iters_done] = lsqr(A * L, b_t, LSQR_tol, opts.max_inner_iter);
         % LSQR finds the minimum norm solution and is much faster than lsqminnorm
     relRes = relRes * (norm(b_t) / norm(b));
         % original relRes is normalized w.r.t. to b_t,
@@ -112,12 +112,12 @@ for iter = 1:opts.max_outer_iter
     Vtilde = zeros(size(V)); 
     nc_list = r * [0:1:(n2-1)]; 
     for i=1:r
-        Vtilde(:,i) = Z(i+nc_list); 
+        Vtilde(:,i) = z(i+nc_list); 
     end
     nr_list = r * [0:1:(n1-1)]; 
     start_idx = r*n2; 
     for i=1:r
-        Utilde(:,i) = Z(start_idx + i + nr_list);
+        Utilde(:,i) = z(start_idx + i + nr_list);
     end
     
     %% calculate U_next, V_next
