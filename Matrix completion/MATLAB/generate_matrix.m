@@ -1,9 +1,7 @@
 function [X, U, V] = generate_matrix(n1,n2,singular_values)
 %
-% Code taken from R2RILS by Jonathan Bauch, Boaz Nadler and Pini Zilber
-%
-% INPUT: n_r,n_c = number of rows and columns
-% lambda: non-zero singular values
+% INPUT:  n1,n2 = number of rows and columns
+%         singular_values = non-zero singular values
 
 % OUTPUT: X = n1 x n2 matrix of rank r
 %         U = n1 x r left singular vectors
