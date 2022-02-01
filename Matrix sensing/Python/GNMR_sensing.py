@@ -1,3 +1,6 @@
+### Gauss-Newton based algorithm for matrix sensing ###
+### Written by Pini Zilber and Boaz Nadler, 2021 ###
+
 import numpy as np
 from scipy import sparse
 from scipy.sparse import linalg
