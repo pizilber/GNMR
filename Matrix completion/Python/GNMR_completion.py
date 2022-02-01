@@ -1,5 +1,5 @@
-### Gauss-Newton based algorithm for inductive matrix completion ###
-### Written by Pini Zilber and Boaz Nadler, 2022 ###
+### Gauss-Newton based algorithm for matrix completion ###
+### Written by Pini Zilber and Boaz Nadler, 2021 ###
 
 import numpy as np
 from scipy import sparse
