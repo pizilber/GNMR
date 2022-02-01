@@ -1,3 +1,6 @@
+### Gauss-Newton based algorithm for inductive matrix completion ###
+### Written by Pini Zilber and Boaz Nadler, 2022 ###
+
 import numpy as np
 from scipy import sparse
 from scipy.sparse import linalg
