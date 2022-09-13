@@ -1,5 +1,5 @@
 # GNMR
-This repository contains `Matlab` and `Python` implementations for `GNMR` (Gauss-Newton for Matrix Recovery), as described in [P. Zilber and B. Nadler (preprint, 2022)](http://arxiv.org/abs/2106.12933), both in the matrix completion and matrix sensing cases.
+This repository contains `Matlab` and `Python` implementations for `GNMR` (Gauss-Newton for Matrix Recovery), as described in [P. Zilber and B. Nadler (SIMODS 2022)](https://epubs.siam.org/doi/abs/10.1137/21M1433812) or in the [arXiv version](http://arxiv.org/abs/2106.12933), both in the matrix completion and matrix sensing cases.
 
 ## Usage
 Simple demos demonstrating the usage of `GNMR` are available, see `LRMC_demo.m`/`LRMC_demo.py` for matrix completion and `LRMS_demo.m`/`LRMS_demo.py` for matrix sensing.
