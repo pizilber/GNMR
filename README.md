@@ -28,9 +28,13 @@ The required number of inner iterations depends on the dimension and the difficu
 If you refer to the method or the paper, please cite them as:
 ```
 @article{zilber2022gnmr,
-  title={{GNMR}: A provable one-line algorithm for low rank matrix recovery},
-  author={Pini Zilber and Boaz Nadler},
-  journal={arXiv preprint arXiv:2106.12933},
-  year={2022}
+  title={GNMR: A provable one-line algorithm for low rank matrix recovery},
+  author={Zilber, Pini and Nadler, Boaz},
+  journal={SIAM Journal on Mathematics of Data Science},
+  volume={4},
+  number={2},
+  pages={909--934},
+  year={2022},
+  publisher={SIAM}
 }
 ```
